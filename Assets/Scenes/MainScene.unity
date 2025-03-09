@@ -177,6 +177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 310612321}
   - component: {fileID: 310612320}
+  - component: {fileID: 310612322}
   m_Layer: 5
   m_Name: UIDocument
   m_TagString: Untagged
@@ -215,6 +216,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &310612322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310612319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79b8f7750d8b2f0468864715c4bb9b08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1254002128
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,7 +472,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -471,7 +484,7 @@ BoxCollider2D:
     adaptiveTilingThreshold: 0.5
     drawMode: 2
     adaptiveTiling: 1
-  m_AutoTiling: 0
+  m_AutoTiling: 1
   serializedVersion: 2
   m_Size: {x: 2.56, y: 2.56}
   m_EdgeRadius: 0
@@ -486,7 +499,7 @@ GameObject:
   - component: {fileID: 1594245105}
   - component: {fileID: 1594245104}
   - component: {fileID: 1594245103}
-  - component: {fileID: 1594245102}
+  - component: {fileID: 1594245106}
   m_Layer: 0
   m_Name: CollectibleHealth
   m_TagString: Untagged
@@ -494,18 +507,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1594245102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1594245101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87da7c5dd1ea4834aa5f30f4544c64a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1594245103
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -618,6 +619,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1594245106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594245101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b98dfc2e3b701846ba04b192ca38a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1685929709
 GameObject:
   m_ObjectHideFlags: 0
