@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -3167851012272566168}
   - component: {fileID: 4256108096597694403}
   - component: {fileID: 6252822213982477390}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlayerCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -152,6 +152,7 @@ MonoBehaviour:
   speed: 3
   maxHealth: 5
   timeInvincible: 2
+  projectilePrefab: {fileID: 924550251863812018, guid: 3e604c508734669428fee7f650f56fff, type: 3}
 --- !u!50 &-3167851012272566168
 Rigidbody2D:
   serializedVersion: 4
