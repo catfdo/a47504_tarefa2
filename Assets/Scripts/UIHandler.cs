@@ -11,15 +11,9 @@ public class UIHandler : MonoBehaviour
 
     void Awake()
     {
-        // Configurar Singleton
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        
+        instance = this;
+        
     }
 
     // Start is called before the first frame update

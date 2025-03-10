@@ -15,8 +15,8 @@ public class PlayerController : MonoBehaviour
 
   // Variables related to the health system
   public int maxHealth = 5;
-  int currentHealth;
   public int health { get { return currentHealth; }}
+  int currentHealth = 1;
 
 
   // Variables related to temporary invincibility
